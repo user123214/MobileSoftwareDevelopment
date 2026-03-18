@@ -211,7 +211,7 @@ Package for zhangwei will arrive, tracking ID: 20231042.
 ```kotlin
 fun main(){
     val name = "inxiaoyan"
-    val Id  ="2025003001"
+    val Id  = "2025003001"
     println("Package for $name will arrive,tracking ID:$Id.")
 }
 ```
@@ -244,9 +244,9 @@ Total: 44
 ```kotlin
 fun main(){
     val studentName = "jinxiaoyan"
-    val score  = 1
-    val bonus  = 1      
-    val total  = score + bonus
+    val score = 1
+    val bonus = 1      
+    val total = score + bonus
     println("name:$studentName")
     println("Score:$score ,Bonus:$bonus")
     println("Total:$total")
@@ -275,11 +275,11 @@ fun main(){
 fun main(){
     val operatorone = 4
     val operatortow = 2
-    println("$operatorone + $operatortow = ${operatorone+operatortow}")
-    println("$operatorone - $operatortow = ${operatorone-operatortow}")
-    println("$operatorone / $operatortow = ${operatorone/operatortow}")
-    println("$operatorone * $operatortow = ${operatorone*operatortow}")
-    println("$operatorone % $operatortow = ${operatorone%operatortow}")
+    println("$operatorone + $operatortow = ${operatorone + operatortow}")
+    println("$operatorone - $operatortow = ${operatorone - operatortow}")
+    println("$operatorone / $operatortow = ${operatorone / operatortow}")
+    println("$operatorone * $operatortow = ${operatorone * operatortow}")
+    println("$operatorone % $operatortow = ${operatorone % operatortow}")
     
 }
 ```
